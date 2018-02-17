@@ -17,6 +17,7 @@
 		C6946BE0203704080008DF03 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6946BDF203704080008DF03 /* GradientView.swift */; };
 		C6946BE3203726690008DF03 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6946BE2203726690008DF03 /* Constants.swift */; };
 		C6946BE720373E370008DF03 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6946BE620373E370008DF03 /* LoginVC.swift */; };
+		C6946BE92037CAAA0008DF03 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6946BE82037CAAA0008DF03 /* CreateAccountVC.swift */; };
 		E4DC396DECEBE4B7713BFC02 /* Pods_SmackChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7164E6EDDDC1633308CD045F /* Pods_SmackChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		C6946BDF203704080008DF03 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		C6946BE2203726690008DF03 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C6946BE620373E370008DF03 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		C6946BE82037CAAA0008DF03 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				C6946BDB2036F7590008DF03 /* ChatVC.swift */,
 				C6946BDD2036F76D0008DF03 /* ChannelVC.swift */,
 				C6946BE620373E370008DF03 /* LoginVC.swift */,
+				C6946BE82037CAAA0008DF03 /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			files = (
 				C6946BDE2036F76D0008DF03 /* ChannelVC.swift in Sources */,
 				C6946BDC2036F7590008DF03 /* ChatVC.swift in Sources */,
+				C6946BE92037CAAA0008DF03 /* CreateAccountVC.swift in Sources */,
 				C6946BE720373E370008DF03 /* LoginVC.swift in Sources */,
 				C6946BE0203704080008DF03 /* GradientView.swift in Sources */,
 				C6946BC22036EAD30008DF03 /* AppDelegate.swift in Sources */,
