@@ -23,3 +23,9 @@ let USER_EMAIL = "userEmail"
 // Url Constants
 let BASE_URL = "https://skchatapi.herokuapp.com/v1/"
 let URL_REGISTER = "\(BASE_URL)account/register"
+let URL_LOGIN = "\(BASE_URL)account/login"
+
+// Headers
+let HEADER = [
+    "Content-Type": "application/json; charset=utf-8"
+]
