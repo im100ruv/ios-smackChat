@@ -245,6 +245,10 @@
                                     <action selector="createAccountBtnPressed:" destination="hBn-P0-6h3" eventType="touchUpInside" id="qLF-PE-e1A"/>
                                 </connections>
                             </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="8qi-9a-HvA">
+                                <rect key="frame" x="169" y="245" width="37" height="37"/>
+                                <color key="color" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -258,12 +262,15 @@
                             <constraint firstItem="SgE-zZ-VyT" firstAttribute="top" secondItem="Ksq-iQ-K55" secondAttribute="bottom" id="caV-7V-c7A"/>
                             <constraint firstItem="SgE-zZ-VyT" firstAttribute="centerX" secondItem="6nh-is-yBd" secondAttribute="centerX" id="hJc-1d-xzz"/>
                             <constraint firstItem="c15-0x-GuO" firstAttribute="top" secondItem="DiM-ja-cDf" secondAttribute="top" constant="8" id="rpL-Gu-jmp"/>
+                            <constraint firstItem="8qi-9a-HvA" firstAttribute="centerX" secondItem="6nh-is-yBd" secondAttribute="centerX" id="yq9-BJ-wFj"/>
+                            <constraint firstItem="8qi-9a-HvA" firstAttribute="centerY" secondItem="6nh-is-yBd" secondAttribute="centerY" constant="-70" id="zcf-tR-5ho"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="DiM-ja-cDf"/>
                     </view>
                     <connections>
+                        <outlet property="emailTxt" destination="DWr-RH-nPV" id="RYB-J6-ahD"/>
                         <outlet property="passwordTxt" destination="PGv-QY-AHt" id="tpR-MR-oQm"/>
-                        <outlet property="userNameEmailTxt" destination="DWr-RH-nPV" id="RYB-J6-ahD"/>
+                        <outlet property="spinner" destination="8qi-9a-HvA" id="LuV-ZY-rBh"/>
                         <segue destination="2Bg-FJ-075" kind="show" identifier="toCreateAccount" id="4u2-CN-3tB"/>
                     </connections>
                 </viewController>
