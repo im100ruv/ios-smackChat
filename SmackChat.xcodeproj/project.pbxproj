@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C68BE072203AE62E006DF19A /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BE070203AE62E006DF19A /* ProfileVC.swift */; };
+		C68BE073203AE62E006DF19A /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68BE071203AE62E006DF19A /* ProfileVC.xib */; };
 		C6946BC22036EAD30008DF03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6946BC12036EAD30008DF03 /* AppDelegate.swift */; };
 		C6946BC72036EAD30008DF03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6946BC52036EAD30008DF03 /* Main.storyboard */; };
 		C6946BC92036EAD30008DF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6946BC82036EAD30008DF03 /* Assets.xcassets */; };
@@ -31,6 +33,8 @@
 		2FD84E3019CCCBE851FC070E /* Pods-SmackChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmackChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmackChat/Pods-SmackChat.release.xcconfig"; sourceTree = "<group>"; };
 		6C74A6FE22EC2D52CCFB951E /* Pods-SmackChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmackChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmackChat/Pods-SmackChat.debug.xcconfig"; sourceTree = "<group>"; };
 		7164E6EDDDC1633308CD045F /* Pods_SmackChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmackChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C68BE070203AE62E006DF19A /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		C68BE071203AE62E006DF19A /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		C6946BBE2036EAD30008DF03 /* SmackChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmackChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6946BC12036EAD30008DF03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6946BC62036EAD30008DF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -74,6 +78,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C68BE074203AE635006DF19A /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				C68BE071203AE62E006DF19A /* ProfileVC.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
 		C6946BB52036EAD30008DF03 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +107,7 @@
 		C6946BC02036EAD30008DF03 /* SmackChat */ = {
 			isa = PBXGroup;
 			children = (
+				C68BE074203AE635006DF19A /* XIBs */,
 				C6946BEA20382B790008DF03 /* Services */,
 				C6946BE1203726510008DF03 /* Utilities */,
 				C6946BDA2036F6F30008DF03 /* Controller */,
@@ -146,6 +159,7 @@
 				C6946BE620373E370008DF03 /* LoginVC.swift */,
 				C6946BE82037CAAA0008DF03 /* CreateAccountVC.swift */,
 				C6AA47562039F4F2005711B9 /* AvatarPickerVC.swift */,
+				C68BE070203AE62E006DF19A /* ProfileVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -239,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68BE073203AE62E006DF19A /* ProfileVC.xib in Resources */,
 				C6946BCC2036EAD30008DF03 /* LaunchScreen.storyboard in Resources */,
 				C6946BC92036EAD30008DF03 /* Assets.xcassets in Resources */,
 				C6946BC72036EAD30008DF03 /* Main.storyboard in Resources */,
@@ -312,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68BE072203AE62E006DF19A /* ProfileVC.swift in Sources */,
 				C6946BDE2036F76D0008DF03 /* ChannelVC.swift in Sources */,
 				C6AA47572039F4F2005711B9 /* AvatarPickerVC.swift in Sources */,
 				C6946BEE203848890008DF03 /* RoundedButton.swift in Sources */,
