@@ -11,6 +11,7 @@
 		C68BE073203AE62E006DF19A /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68BE071203AE62E006DF19A /* ProfileVC.xib */; };
 		C68BE076203B1F1A006DF19A /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BE075203B1F1A006DF19A /* MessageService.swift */; };
 		C68BE078203B1F8C006DF19A /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BE077203B1F8C006DF19A /* Channel.swift */; };
+		C68BE07A203BB98B006DF19A /* ChannelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BE079203BB98B006DF19A /* ChannelCell.swift */; };
 		C6946BC22036EAD30008DF03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6946BC12036EAD30008DF03 /* AppDelegate.swift */; };
 		C6946BC72036EAD30008DF03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6946BC52036EAD30008DF03 /* Main.storyboard */; };
 		C6946BC92036EAD30008DF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6946BC82036EAD30008DF03 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 		C68BE071203AE62E006DF19A /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		C68BE075203B1F1A006DF19A /* MessageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
 		C68BE077203B1F8C006DF19A /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		C68BE079203BB98B006DF19A /* ChannelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelCell.swift; sourceTree = "<group>"; };
 		C6946BBE2036EAD30008DF03 /* SmackChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmackChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6946BC12036EAD30008DF03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6946BC62036EAD30008DF03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				C6946BED203848880008DF03 /* RoundedButton.swift */,
 				C6AA47582039F96B005711B9 /* AvatarCell.swift */,
 				C6AA475A203ACA09005711B9 /* CircleImage.swift */,
+				C68BE079203BB98B006DF19A /* ChannelCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C68BE072203AE62E006DF19A /* ProfileVC.swift in Sources */,
+				C68BE07A203BB98B006DF19A /* ChannelCell.swift in Sources */,
 				C6946BDE2036F76D0008DF03 /* ChannelVC.swift in Sources */,
 				C6AA47572039F4F2005711B9 /* AvatarPickerVC.swift in Sources */,
 				C6946BEE203848890008DF03 /* RoundedButton.swift in Sources */,

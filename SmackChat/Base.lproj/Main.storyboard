@@ -75,7 +75,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="XI4-i6-4Om">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="channelCell" id="XI4-i6-4Om" customClass="ChannelCell" customModule="SmackChat" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="XI4-i6-4Om" id="NQO-pX-23I">
@@ -96,6 +96,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="channelLbl" destination="FQl-SS-seL" id="W1z-WR-Of7"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -131,6 +134,7 @@
                     </view>
                     <connections>
                         <outlet property="loginBtn" destination="66I-B6-pUf" id="x4P-ZJ-a1A"/>
+                        <outlet property="tableView" destination="feB-Fb-QC9" id="1DO-AD-Mja"/>
                         <outlet property="userImg" destination="ZVZ-el-Eyt" id="YUs-ed-IrN"/>
                         <segue destination="hBn-P0-6h3" kind="show" identifier="toLogin" id="hnd-kS-kR7"/>
                     </connections>

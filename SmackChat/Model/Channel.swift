@@ -14,3 +14,4 @@ struct Channel {
     public private(set) var id : String!
 }
 
+
