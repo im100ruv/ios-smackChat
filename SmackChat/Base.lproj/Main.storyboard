@@ -665,18 +665,27 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JqB-2F-3MY">
+                                <rect key="frame" x="8" y="621" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="JqB-2F-3MY" secondAttribute="trailing" constant="20" symbolic="YES" id="0rg-zw-Wib"/>
                             <constraint firstItem="Mdv-2i-obn" firstAttribute="centerY" secondItem="hHq-2l-dio" secondAttribute="centerY" id="8yK-E9-jZ3"/>
                             <constraint firstItem="hHq-2l-dio" firstAttribute="leading" secondItem="ckJ-Kp-bof" secondAttribute="leading" id="Buh-FJ-0qz"/>
                             <constraint firstItem="s6S-Hp-4IL" firstAttribute="leading" secondItem="ckJ-Kp-bof" secondAttribute="leading" id="D9x-7d-W2C"/>
                             <constraint firstItem="ckJ-Kp-bof" firstAttribute="trailing" secondItem="CLi-wI-lHW" secondAttribute="trailing" id="EOf-4b-5Or"/>
                             <constraint firstItem="hHq-2l-dio" firstAttribute="bottom" secondItem="oWP-M4-KEc" secondAttribute="bottom" id="Hc3-wm-fa7"/>
                             <constraint firstItem="ckJ-Kp-bof" firstAttribute="trailing" secondItem="Mdv-2i-obn" secondAttribute="trailing" constant="8" id="JTJ-xH-VxG"/>
+                            <constraint firstItem="JqB-2F-3MY" firstAttribute="leading" secondItem="oWP-M4-KEc" secondAttribute="leading" constant="8" id="Q9O-0i-sLr"/>
                             <constraint firstItem="CLi-wI-lHW" firstAttribute="leading" secondItem="ckJ-Kp-bof" secondAttribute="leading" id="bQb-PG-RtZ"/>
                             <constraint firstItem="s6S-Hp-4IL" firstAttribute="top" secondItem="oWP-M4-KEc" secondAttribute="top" id="eu3-as-Wx9"/>
                             <constraint firstItem="ckJ-Kp-bof" firstAttribute="trailing" secondItem="hHq-2l-dio" secondAttribute="trailing" id="fTc-sg-463"/>
+                            <constraint firstItem="hHq-2l-dio" firstAttribute="top" secondItem="JqB-2F-3MY" secondAttribute="bottom" constant="6" id="k39-V0-Brv"/>
                             <constraint firstItem="hHq-2l-dio" firstAttribute="top" secondItem="CLi-wI-lHW" secondAttribute="bottom" constant="30" id="sjO-Dn-ZRz"/>
                             <constraint firstItem="CLi-wI-lHW" firstAttribute="top" secondItem="s6S-Hp-4IL" secondAttribute="bottom" id="wID-f3-mZv"/>
                             <constraint firstItem="s6S-Hp-4IL" firstAttribute="trailing" secondItem="ckJ-Kp-bof" secondAttribute="trailing" id="zdi-GT-wdd"/>
@@ -689,6 +698,7 @@
                         <outlet property="messageTxtField" destination="hHq-2l-dio" id="LOQ-md-M9j"/>
                         <outlet property="sendBtn" destination="Mdv-2i-obn" id="Ts5-h8-oOe"/>
                         <outlet property="tableView" destination="CLi-wI-lHW" id="ZYj-yA-fGE"/>
+                        <outlet property="typingUsersLbl" destination="JqB-2F-3MY" id="4Cz-Gz-S2b"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KH8-21-SyH" userLabel="First Responder" sceneMemberID="firstResponder"/>
